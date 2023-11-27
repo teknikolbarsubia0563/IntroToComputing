@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<workspace_user>
+	<open_files>
+		<docitem>
+			<path>Laboratory4.java</path>
+			<source>true</source>
+			<index>0</index>
+			<active>false</active>
+		</docitem>
+		<docitem>
+			<path>Lab_3.java</path>
+			<source>true</source>
+			<index>1</index>
+			<active>false</active>
+		</docitem>
+		<docitem>
+			<path>exercises\exercise1.java</path>
+			<source>true</source>
+			<index>2</index>
+			<active>false</active>
+		</docitem>
+		<docitem>
+			<path>..\..\..\BS-INFOSYSA\arrayRev.java</path>
+			<source>true</source>
+			<index>3</index>
+			<active>false</active>
+		</docitem>
+		<docitem>
+			<path>PyramidPattern.java</path>
+			<source>true</source>
+			<index>4</index>
+			<active>true</active>
+		</docitem>
+	</open_files>
+	<breakpoints>
+		<breakpoint>
+			<path>Lab_3.java</path>
+			<class/>
+			<session/>
+			<line>11</line>
+			<enable>true</enable>
+		</breakpoint>
+	</breakpoints>
+</workspace_user>

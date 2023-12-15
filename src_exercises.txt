@@ -1,0 +1,7 @@
+"C:\\Users\\Administrator\\Documents\\JCreator Pro\\MyProjects\\exercises\\src\\Array_sample1.java"
+"C:\\Users\\Administrator\\Documents\\JCreator Pro\\MyProjects\\exercises\\src\\AveArray2.java"
+"C:\\Users\\Administrator\\Documents\\JCreator Pro\\MyProjects\\exercises\\src\\Directory.java"
+"C:\\Users\\Administrator\\Documents\\JCreator Pro\\MyProjects\\exercises\\src\\exercises.java"
+"C:\\Users\\Administrator\\Documents\\JCreator Pro\\MyProjects\\exercises\\src\\practices.java"
+"C:\\Users\\Administrator\\Documents\\JCreator Pro\\MyProjects\\exercises\\src\\PyramidPattern2.java"
+"C:\\Users\\Administrator\\Documents\\JCreator Pro\\MyProjects\\exercises\\src\\ReversePyramid.java"

@@ -1,41 +1,31 @@
-import javax.swing.JOptionPane;
+import java.util.Scanner;
 
 public class Pyramid {
     public static void main(String[] args) {
-        // Input: Get the number of rows from the user
-        String input = JOptionPane.showInputDialog("Enter the number of rows for the pyramid:");
+        Scanner scanner = new Scanner(System.in);
+
         
-        // Convert the input string to an integer
-        int numRows = Integer.parseInt(input);
+        System.out.print("Enter the number of rows for the pyramid: ");
+        int numRows = scanner.nextInt();
 
-        // Display the pyramid
-        displayPyramid(numRows);
-    }
-
-    // Function to display the pyramid
-    static void displayPyramid(int numRows) {
-        StringBuilder pyramid = new StringBuilder();
-
+        
         for (int i = 1; i <= numRows; i++) {
-            // Append spaces
+           
             for (int j = 1; j <= numRows - i; j++) {
-                pyramid.append(" ");
+                System.out.print("  ");
             }
 
-            // Append '*' characters
-            for (int k = 1; k <= i; k++) {
-                pyramid.append("*");
+            for (int j = i; j >= 1; j--) {
+                System.out.print(j + " ");
             }
 
-            // Append digits
-            for (int l = i - 1; l >= 1; l--) {
-                pyramid.append(l);
+            for (int j = 2; j <= i; j++) {
+                System.out.print(j + " ");
             }
 
-            pyramid.append("\n"); // Move to the next line for the next row
+            System.out.println();
         }
 
-        // Output: Display the pyramid using a dialog box
-        JOptionPane.showMessageDialog(null, pyramid.toString(), "Pyramid Pattern", JOptionPane.INFORMATION_MESSAGE);
+        scanner.close();
     }
 }
